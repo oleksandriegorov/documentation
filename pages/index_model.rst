@@ -33,7 +33,7 @@ Eviction of indices and messages
 ================================
 
 There's a configuration setting for the maximum number of indices Graylog is managing.
-Depending on the configured retention strategy, the oldest indices will automatically closed, deleted, or exported when the maximum number of indices has been reached.
+Depending on the configured retention strategy, the oldest indices will automatically be closed, deleted, or exported when the maximum number of indices has been reached.
 The deletion is performed by the Graylog master node in a background thread that is continuously comparing the number of indices with the configured maximum.
 
 .. _index_rotation:
